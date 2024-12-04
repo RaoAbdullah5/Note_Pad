@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Pad</title>
+    <link rel="stylesheet" href="./note_pad.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Note Pad</h2>
+      <div class="todo-box">
+        <div class="commited">
+          <input type="text" class="input topic" placeholder="write topic name"/>
+          <input type="text" class="input write" placeholder="write the task"/>
+          <button id="add" class="btn">ADD</button>
+        </div>
+        <div class="already-tasks">
+          <ul class="list">
+          </ul>
+        </div>
+        <button id="remove">REMOVE ALL</button>
+      </div>
+    </div>
+    <script src="./note_pad.js"></script>
+  </body>
+</html>

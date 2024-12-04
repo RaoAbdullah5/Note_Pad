@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  body {
+    background-color: beige;
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    padding: 20px;
+    background-color: azure;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+  }
+  .todo-box {
+    margin-top: 10px;
+  }
+
+  .list {
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    height: 30px;
+    width: 65%;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+    width: 30%;
+  }
+  .commited {
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    gap: 10px;
+  }
+  #add {
+    background-color: chartreuse;
+  }
+  .del {
+    background-color: crimson;
+  }
+  #remove{
+    margin:  20px 25%;
+    padding: 5px 10px;
+    width:fit-content;
+    background-color: yellow;
+  }
